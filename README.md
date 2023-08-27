@@ -4,13 +4,13 @@ Welcome to the Weather App! This is a simple React application that allows users
 
 ## Screenshots
 
-![App Screenshot] <img src="./src/assets/first-view.png" />
+<img src="./src/assets/first-view.png" />
 
-![App Screenshot] <img src="./src/assets/sun-cloud.png" />
+<img src="./src/assets/sun-cloud.png" />
 
-![App Screenshot] <img src="./src/assets/full-sun.png" />
+<img src="./src/assets/full-sun.png" />
 
-![App Screenshot] <img src="./src/assets/error.png" />
+<img src="./src/assets/error.png" />
 
 ## Features
 
