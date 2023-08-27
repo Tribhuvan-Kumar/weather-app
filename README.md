@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Weather App! This is a simple React application that allows users to search for the current weather information of a city.
 
-## Available Scripts
+## Screenshots
 
-In the project directory, you can run:
+![App Screenshot] <img src="./src/assets/first-view.png" />
 
-### `npm start`
+![App Screenshot] <img src="./src/assets/sun-cloud.png" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![App Screenshot] <img src="./src/assets/full-sun.png" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![App Screenshot] <img src="./src/assets/error.png" />
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Search:** Enter the name of a city to get its current weather details.
+- **Weather Icon:** Displays an appropriate weather icon based on the weather conditions.
+- **Temperature:** Shows the current temperature in Celsius.
+- **City Name:** Displays the name of the city for which weather information is shown.
+- **Humidity:** Displays the humidity percentage.
+- **Wind Speed:** Displays the wind speed in kilometers per hour.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
+   cd weather-app
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install the dependencies:
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   The app will be available at `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+1. Enter the name of a city in the search input and click the search button.
+2. The app will fetch the current weather information for the entered city and display it.
+3. If the city is not found, an error message will be shown.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## FAQ
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### 1. How do I use the Weather App?
 
-### Code Splitting
+Simply enter a city's name in the search input and click the search button. The app will display the current weather details, such as temperature, humidity, and wind speed, for the entered city. If the city isn't found, an error message will show.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### 2. Is there any issue after polishing?
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+No, there are no errors. However, please note that the app has a limited set of weather icons. For example, it will show a snow icon for snowy weather and a rain icon for rainy weather. Due to icon availability and the API's limitations, some cities might not display specific icons.
